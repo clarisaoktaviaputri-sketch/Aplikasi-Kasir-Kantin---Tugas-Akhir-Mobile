@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "BRG001": {
+      "harga": 10000,
+      "nama": "Nasi Goreng",
+      "stok": 50
+    },
+    "BRG002": {
+      "harga": 8000,
+      "nama": "Mie Ayam",
+      "stok": 40
+    },
+    "BRG003": {
+      "harga": 3000,
+      "nama": "Es Teh",
+      "stok": 100
+    },
+    "BRG004": {
+      "harga": 2000,
+      "nama": "Air Mineral",
+      "stok": 100
+    },
+    "BRG005": {
+      "harga": 7000,
+      "nama": "Roti Bakar",
+      "stok": 30
+    }
+  },
+  "transaksi": {
+    "TRX468569": "{\"user_id\":\"kasir1\",\"total\":10000,\"bayar\":\"10000\",\"kembalian\":0,\"latitude\":-7.695611,\"longitude\":110.6967782,\"items\":[\"Nasi Goreng - Rp 10000\"],\"tanggal\":\"com.google.appinventor.components.runtime.Clock@1c946e6\"}",
+    "TRX591120": "{\"user_id\":\"kasir1\",\"total\":10000,\"bayar\":\"50000\",\"kembalian\":40000,\"latitude\":-7.6956267,\"longitude\":110.6967991,\"items\":[\"namaMenu - Rp  hargaMenu\"],\"tanggal\":\"com.google.appinventor.components.runtime.Clock@b27a0f6\"}",
+    "TRX627544": "{\"user_id\":\"kasir1\",\"total\":10000,\"bayar\":\"20000\",\"kembalian\":10000,\"latitude\":-7.6956205,\"longitude\":110.6967842,\"items\":[\"BRG001 - Rp 10000\"],\"tanggal\":\"com.google.appinventor.components.runtime.Clock@daeec2a\"}",
+    "TRX752851": "{\"user_id\":\"kasir1\",\"total\":30000,\"bayar\":\"30000\",\"kembalian\":0,\"latitude\":-7.695611,\"longitude\":110.6967782,\"items\":[\"BRG001 - Rp 10000\",\"BRG001 - Rp 10000\",\"BRG001 - Rp 10000\"],\"tanggal\":\"com.google.appinventor.components.runtime.Clock@71a9028\"}"
+  },
+  "users": {
+    "kasir1": {
+      "nama": "Kasir Kantin",
+      "password": "12345"
+    }
+  }
+}
